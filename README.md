@@ -1,0 +1,2 @@
+# IncreaseConversationFeatures
+既存の会話特徴量ファイルからさらに会話特徴量を増やす処理

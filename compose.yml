@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: IncreaseConversationFeatures
+    build:
+      dockerfile: .docker/Dockerfile
+      context: .
+    working_dir: /app
+    tty: true
+    volumes:
+      - ./:/app
